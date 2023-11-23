@@ -5,6 +5,7 @@ import App from "./App.vue"
 import 'virtual:uno.css'
 import { setupRouter } from "./routers"
 import { setupStore } from "./stores"
+import 'vant/lib/index.css';
 
 const app = createApp(App)
 
